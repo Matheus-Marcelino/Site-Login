@@ -5,6 +5,8 @@ body{
     height: 600px;
     font-family: 'ABeeZee', sans-serif;
     background-color: #1e1e1e;
+    background-image: url("https://img.freepik.com/free-vector/stylish-white-background-with-diagonal-lines_1017-33199.jpg?w=740&t=st=1671218047~exp=1671218647~hmac=8adf3e024d78e059af647901e7651901529decb88cf7257527b9eb2a9c2b36f9");
+    background-size: 100vw 100vh;
 }
 
 .container{
@@ -17,8 +19,12 @@ body{
 
 }
 
+.shadow{
+    box-shadow: 0px 0px 69px -10px rgba(0,0,0,0.75);
+}
+
 .foto{
-    background-image:url("https://img.freepik.com/vetores-gratis/programador-trabalhando-em-codigo-de-desenvolvimento-web-engenheiro-de-programacao-em-python-php-e-java-script-no-computador_90220-249.jpg?w=900&t=st=1671213394~exp=1671213994~hmac=6decb83abfbc5c7a80384faf88b27be68ce6c4c8e2e2e493b73ce2beb129d090");
+    background-image: url("https://img.freepik.com/vetores-gratis/programador-trabalhando-em-codigo-de-desenvolvimento-web-engenheiro-de-programacao-em-python-php-e-java-script-no-computador_90220-249.jpg?w=900&t=st=1671213394~exp=1671213994~hmac=6decb83abfbc5c7a80384faf88b27be68ce6c4c8e2e2e493b73ce2beb129d090");
     background-size: 520px 470px;
     width: 500px;
     height: 500px;
@@ -45,12 +51,18 @@ body{
     border-color: black;
 }
 
+.login{
+    box-shadow: 13px -3px 69px -16px rgba(0,0,0,0.75);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .formulario{
     display: flex;
     width: 420px;
     height: 500px;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: #9dc0d8;
     align-items: center;
     text-align: left;
     border-top-right-radius: 10px;
@@ -66,9 +78,10 @@ body{
 
 .barra{
     width: 300px;
-    height: 17px;
+    height: 20px;
     border: 2px solid black;
     border-radius: 6px;
+    color: black;
     background-color: white;
 }
 
@@ -76,7 +89,7 @@ body{
     width: 100px;
     height: 35px;
     margin-left: 1%;
-    background: #00b2ff;
+    background: #d06a4b;
     border-radius: 1000px;
     border: none;
     color: #ffffff;
