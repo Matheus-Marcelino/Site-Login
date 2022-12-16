@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 900px;
+    height: 600px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+.text-login{
+    font-size: 50px;
+}
+
+.espacamento-interno{
+    padding: 5px;
+}
+
+.borda-arredondada{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.espacamento-externo{
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    display: flex;
+    width: 420px;
+    height: 500px;
+    justify-content: center;
+    background-color: blueviolet;
+    align-items: center;
+    text-align: left;
+}
+
+.class-div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra{
+    width: 300px;
+    height: 17px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.botao{
+    width: 100px;
+    height: 25px;
+}
+
+.checks{
+    margin-left: 24%;
+}
