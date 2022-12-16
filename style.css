@@ -4,6 +4,7 @@ body{
     width: 900px;
     height: 600px;
     font-family: 'ABeeZee', sans-serif;
+    background-color: #1e1e1e;
 }
 
 .container{
@@ -17,17 +18,25 @@ body{
 }
 
 .foto{
+    background-image:url("https://img.freepik.com/vetores-gratis/programador-trabalhando-em-codigo-de-desenvolvimento-web-engenheiro-de-programacao-em-python-php-e-java-script-no-computador_90220-249.jpg?w=900&t=st=1671213394~exp=1671213994~hmac=6decb83abfbc5c7a80384faf88b27be68ce6c4c8e2e2e493b73ce2beb129d090");
+    background-size: 520px 470px;
     width: 500px;
     height: 500px;
-    background-color: blue;
-}
-
-.text-login{
-    font-size: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .espacamento-interno{
     padding: 5px;
+}
+
+.espacamento-externo{
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.text-login{
+    font-size: 50px;
 }
 
 .borda-arredondada{
@@ -36,25 +45,23 @@ body{
     border-color: black;
 }
 
-.espacamento-externo{
-    margin-top: 4px;
-    margin-bottom: 20px;
-}
-
 .formulario{
     display: flex;
     width: 420px;
     height: 500px;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: whitesmoke;
     align-items: center;
     text-align: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-.class-div{
+.content{
     width: 80%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
 }
 
 .barra{
@@ -67,7 +74,14 @@ body{
 
 .botao{
     width: 100px;
-    height: 25px;
+    height: 35px;
+    margin-left: 1%;
+    background: #00b2ff;
+    border-radius: 1000px;
+    border: none;
+    color: #ffffff;
+    display: inline-block;
+    font: bold 22px/50px;
 }
 
 .checks{
