@@ -19,17 +19,14 @@ body{
 
 }
 
-.shadow{
-    box-shadow: 0px 0px 69px -10px rgba(0,0,0,0.75);
-}
-
 .foto{
     background-image: url("https://img.freepik.com/vetores-gratis/programador-trabalhando-em-codigo-de-desenvolvimento-web-engenheiro-de-programacao-em-python-php-e-java-script-no-computador_90220-249.jpg?w=900&t=st=1671213394~exp=1671213994~hmac=6decb83abfbc5c7a80384faf88b27be68ce6c4c8e2e2e493b73ce2beb129d090");
-    background-size: 520px 470px;
+    background-size: 100% 93%;
     width: 500px;
     height: 500px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 69px -10px rgba(0,0,0,0.75);
 }
 
 .espacamento-interno{
@@ -39,6 +36,57 @@ body{
 .espacamento-externo{
     margin-top: 4px;
     margin-bottom: 20px;
+}
+
+.informacao{
+    width: 420px;
+    height: 500px;
+    justify-content: center;
+    background-color: #9dc0d8;
+    box-shadow: 10px -3px 69px -16px rgba(0,0,0,0.75);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.formulario{
+    justify-content: center;
+    display: flex;
+    text-align: left;
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.space-change-mode{
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: end;
+}
+
+.space-change-mode > p{
+    margin: 0;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.btn-change-mode{
+    width: 100px;
+    height: 35px;
+    background: #389efc;
+    border-radius: 1000px;
+    border: none;
+    color: #ffffff;
+    font: bold;
+}
+
+.btn-change-mode:hover {
+    background-color: #0e86f9;
+    transition: all 0.5s ease;
 }
 
 .text-login{
@@ -51,31 +99,6 @@ body{
     border-color: black;
 }
 
-.login{
-    box-shadow: 10px -3px 69px -16px rgba(0,0,0,0.75);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.formulario{
-    display: flex;
-    width: 420px;
-    height: 500px;
-    justify-content: center;
-    background-color: #9dc0d8;
-    align-items: center;
-    text-align: left;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.content{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10%;
-}
-
 .barra{
     width: 300px;
     height: 20px;
@@ -85,7 +108,7 @@ body{
     background-color: white;
 }
 
-.botao{
+.btn-acess{
     width: 100px;
     height: 35px;
     margin-left: 1%;
@@ -93,11 +116,10 @@ body{
     border-radius: 1000px;
     border: none;
     color: #ffffff;
-    display: inline-block;
-    font: bold 22px/50px;
+    font: bold;
 }
 
-.botao:hover {
+.btn-acess:hover {
     background-color: blue;
     transition: all 0.5s ease;
 }
