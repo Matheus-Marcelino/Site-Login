@@ -85,7 +85,7 @@ body{
 }
 
 .btn-change-mode:hover {
-    background-color: #0e86f9;
+    background-color: #1484ee;
     transition: all 0.5s ease;
 }
 
@@ -120,7 +120,7 @@ body{
 }
 
 .btn-acess:hover {
-    background-color: blue;
+    background-color: #d84b20;
     transition: all 0.5s ease;
 }
 
