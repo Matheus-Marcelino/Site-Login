@@ -15,29 +15,46 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <section class="foto shadow">
         </section>
         <section class="informacao">
-            <div class="space-change-mode">
-                <p>Não tem uma conta?</p>
-                <button class="btn-change-mode">Sing Up</button>
-            </div>
-            <form class="formulario" action="#">
-                <div class="content">
-                    <h1 class="text-login"><b>Login</b></h1> 
-                    <label for="gmail"><b>Email</b></label>
-                    <input class="barra espacamento-externo" name="gmail" type="email" placeholder="exemplo@gmail.com" required>
-                    <label for="senha"><b>Senha</b></label>
-                    <input class="barra espacamento-externo" name="senha" type="password" minlength="8" placeholder="********" required>
-                    <div>
+            <div id="login" class="formulario">
+                <form action="#">
+                    <div class="content">
+                        <h1 class="text-login"><b>Login</b></h1> 
+                        <label for="gmail"><b>Email</b></label>
+                        <input class="barra espacamento-externo" name="gmail" type="email" placeholder="exemplo@gmail.com" required>
+                        <label for="username"><b>User name</b></label>
+                        <input class="barra espacamento-externo" name="username type="text" placeholder="UserName" required>
+                        <label for="senha"><b>Senha</b></label>
+                        <input class="barra espacamento-externo" name="senha" type="password" minlength="8" placeholder="********" required>
+                        <div style="display: flex; width: auto;">
+                            <a href="" style="margin-left: 1%; margin-right: 26%;">Esqueceu a senha?</a>
+                            <a href=""> Esqueceu o usuario?</a>
+                        </div>
                         <button class="btn-acess" type="submit">Log in</button>
-                        <input class="checks" type="checkbox" id="check-acess" name="Remember-me">Lembre-me</input>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
+            <!--<div id="sing_up" class="formulario">
+                <form action="#">
+                    <div class="content">
+                        <h1 class="text-sing"><b>Sing Up</b></h1> 
+                        <label for="gmail"><b>Email</b></label>
+                        <input class="barra espacamento-externo" name="gmail" type="email" placeholder="exemplo@gmail.com" required>
+                        <label for="username"><b>Your User Name</b></label>
+                        <input class="barra espacamento-externo" name="username" type="text" placeholder="UserName" required>
+                        <label for="senha"><b>Password</b></label>
+                        <input class="barra espacamento-externo" name="senha" type="password" minlength="8" placeholder="********" required>
+                        <label for="repeat_senha"><b>Repeat password</b></label>
+                        <input class="barra espacamento-externo" name="repeat_senha" type="password" minlength="8" placeholder="********" required>
+                        <button class="btn-acess" type="submit">to send</button>
+                    </div>
+                </form>
+            </div>-->
         </section>
-    </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
