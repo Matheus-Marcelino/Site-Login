@@ -68,20 +68,25 @@ body{
     width: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .space-change-mode{
-    width: 80%;
-    margin-top: 5%;
+    margin: 0%;
+    width: auto;
+    height: 50px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .space-change-mode > p{
-    margin: 0;
-    margin-top: 2%;
+    margin: 0%;
     margin-right: 2%;
+}
+
+.space-change-mode > a{
+    color: #0100ef;
+    text-decoration: underline;
 }
 
 .btn-change-mode{
@@ -104,7 +109,7 @@ body{
     margin-top: 3%;
 }
 
-.text-sing{
+.text-sign{
     font-size: 50px;
     margin: 0;
     margin-bottom: 7%;

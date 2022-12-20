@@ -1,68 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="DevMarcelino">
-    <meta name="description" content="Um site de login">
-    <meta name="keywords" content="Login, acesso">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1804/1804922.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="DevMarcelino" />
+    <meta name="description" content="Um site de login" />
+    <meta name="keywords" content="Login, acesso" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/1804/1804922.png"
+      type="image/x-icon"
+    />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="container">
-        <section class="foto shadow">
-        </section>
-        <!--<div class="space-change-mode"> 
-            <p>Não tem uma conta?</p> 
-            <button class="btn-change-mode">Sing Up</button> 
-        </div>-->
-        <section class="informacao">
-            <div class="formulario">
-                <div id="login">
-                    <form action="#">
-                        <div class="content">
-                            <h1 class="text-login"><b>Login</b></h1> 
-                            <label for="gmail"><b>Email</b></label>
-                            <input class="barra espacamento-externo" name="gmail" type="email" placeholder="exemplo@gmail.com" required>
-                            <label for="username"><b>User name</b></label>
-                            <input class="barra espacamento-externo" name="username" type="text" placeholder="UserName" required>
-                            <label for="senha"><b>Senha</b></label>
-                            <input class="barra espacamento-externo" name="senha" type="password" minlength="8" placeholder="********" required>
-                            <div style="display: flex; width: auto;">
-                                <a href="" style="margin-left: 1%; margin-right: 26%;">Esqueceu a senha?</a>
-                                <a href=""> Esqueceu o usuario?</a>
-                            </div>
-                            <button class="btn-acess" type="submit">Log in</button>
-                        </div>
-                    </form>
-                    <a type="button" onclick="change_mode()">aaaa</a>
+      <section class="foto shadow"></section>
+      <section class="informacao">
+        <div class="formulario">
+          <div id="login">
+            <form action="#">
+              <div class="content">
+                <h1 class="text-login"><b>Login</b></h1>
+                <label for="gmail"><b>Email</b></label>
+                <input
+                  class="barra espacamento-externo"
+                  name="gmail"
+                  type="email"
+                  placeholder="exemplo@gmail.com"
+                  required
+                />
+                <label for="username"><b>User name</b></label>
+                <input
+                  class="barra espacamento-externo"
+                  name="username"
+                  type="text"
+                  placeholder="UserName"
+                  required
+                />
+                <label for="senha"><b>Senha</b></label>
+                <input
+                  class="barra espacamento-externo"
+                  name="senha"
+                  type="password"
+                  minlength="8"
+                  placeholder="********"
+                  required
+                />
+                <div style="display: flex; width: auto">
+                  <a href="" style="margin-left: 1%; margin-right: 26%"
+                    >Esqueceu a senha?</a
+                  >
+                  <a href=""> Esqueceu o usuario?</a>
                 </div>
-                <div id="cadastro" class="hidden">
-                    <form action="#">
-                        <div class="content">
-                            <h1 class="text-sing"><b>Sing Up</b></h1> 
-                            <label for="gmail"><b>Email</b></label>
-                            <input class="barra espacamento-externo" name="gmail" type="email" placeholder="exemplo@gmail.com" required>
-                            <label for="username"><b>Your User Name</b></label>
-                            <input class="barra espacamento-externo" name="username" type="text" placeholder="UserName" required>
-                            <label for="senha"><b>Password</b></label>
-                            <input class="barra espacamento-externo" name="senha" type="password" minlength="8" placeholder="********" required>
-                            <label for="repeat_senha"><b>Repeat password</b></label>
-                            <input class="barra espacamento-externo" name="repeat_senha" type="password" minlength="8" placeholder="********" required>
-                            <button class="btn-acess" type="submit">to send</button>
-                        </div>
-                    </form>
-                    <a type="button" onclick="change_mode()">aaaa</a>
-                </div>
+                <button class="btn-acess" type="submit">Log in</button>
+              </div>
+            </form>
+            <div class="space-change-mode">
+              <p>Não tem uma conta?</p>
+              <a type="text/html" onclick="change_mode()">sign up</a>
             </div>
-        </section>
+          </div>
+          <div id="sign" class="hidden">
+            <form action="#">
+              <div class="content" style="margin-bottom: 4% !important">
+                <h1 class="text-sign"><b>sign Up</b></h1>
+                <label for="gmail"><b>Email</b></label>
+                <input
+                  class="barra espacamento-externo"
+                  name="gmail"
+                  type="email"
+                  placeholder="exemplo@gmail.com"
+                  required
+                />
+                <label for="username"><b>Your User Name</b></label>
+                <input
+                  class="barra espacamento-externo"
+                  name="username"
+                  type="text"
+                  placeholder="UserName"
+                  required
+                />
+                <label for="senha"><b>Password</b></label>
+                <input
+                  class="barra espacamento-externo"
+                  name="senha"
+                  type="password"
+                  minlength="8"
+                  placeholder="********"
+                  required
+                />
+                <label for="repeat_senha"><b>Repeat password</b></label>
+                <input
+                  class="barra espacamento-externo"
+                  name="repeat_senha"
+                  type="password"
+                  minlength="8"
+                  placeholder="********"
+                  required
+                />
+                <button
+                  class="btn-acess"
+                  style="margin-top: 2% !important"
+                  type="submit"
+                >
+                  to send
+                </button>
+              </div>
+            </form>
+            <div class="space-change-mode">
+              <p>Já tem uma conta?</p>
+              <a type="button" onclick="change_mode()">login</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
